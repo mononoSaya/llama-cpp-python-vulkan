@@ -7,8 +7,8 @@ This repo is intended for people like me who anxiously want to try out the **exp
 You will need to have the Vulkan SDK or the appropriate development libraries from your package manager.
 ```
 git clone --recurse-submodules https://github.com/netrunnereve/llama-cpp-python-vulkan
-cd llama-cpp-python
-make build.vulkan 
+cd llama-cpp-python-vulkan
+make build.vulkan
 ```
 Once installed this can be used in Ooba with `--n-gpu-layers` just like the OpenCL implementation. If you have issues building or running go try the [original llama.cpp version in the PR](https://github.com/ggerganov/llama.cpp/pull/2059) and make sure that works first!
 
