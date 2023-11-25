@@ -1,3 +1,17 @@
+# llama-cpp-python with [0cc4m's Vulkan implementation](https://github.com/ggerganov/llama.cpp/pull/2059)
+
+This repo is intended for people like me who are anxious to try out the **experimental** llama.cpp Vulkan implementation with [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui).
+
+## Install instructions
+
+If this fails try bulding the [original llama.cpp version in the PR first](https://github.com/ggerganov/llama.cpp/pull/2059). You will need to have the Vulkan SDK or the appropiate development libraries from your package manager.
+```
+git clone --recurse-submodules https://github.com/netrunnereve/llama-cpp-python-vulkan
+cd llama-cpp-python
+make build.vulkan 
+```
+---
+
 # 🦙 Python Bindings for [`llama.cpp`](https://github.com/ggerganov/llama.cpp)
 
 [![Documentation Status](https://readthedocs.org/projects/llama-cpp-python/badge/?version=latest)](https://llama-cpp-python.readthedocs.io/en/latest/?badge=latest)
